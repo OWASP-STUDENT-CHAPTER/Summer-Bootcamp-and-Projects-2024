@@ -14,3 +14,7 @@ https://www.jetbrains.com/idea/download/?section=linux
 
 ### Docker
 https://docs.docker.com/get-docker/
+
+### To run the craschcourse postgres files use the following command
+docker run --name crashCourse -e POSTGRES_PASSWORD=pass -d -p 5432:5432 postgres
+
